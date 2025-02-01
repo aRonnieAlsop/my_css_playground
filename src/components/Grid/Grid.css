@@ -1,0 +1,36 @@
+*  {
+    background-color: rgb(242, 221, 225);
+}
+
+
+.img {
+    size: 2vw;
+
+}
+
+.grid {
+    display: grid;
+    border: 2px solid blue;
+}
+
+.grid-container {
+    display: grid;
+    /* 2 equal-width columns: */
+    grid-template-columns: repeat(2, 1fr);
+     /* 2 equal-height rows: */
+     grid-template-rows: repeat(2, 1fr);
+     border: 3px solid black;
+
+}
+
+.grid-two {
+    display: grid;
+    border: 2px solid red;
+    /* Centers items horizontally in their grid cells */
+    justify-items: center; 
+    /* Centers items vertically in their grid cells: */
+    align-items: center; 
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+}
